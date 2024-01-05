@@ -1,0 +1,38 @@
+nav > ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 5px;
+  border: 1px solid orangered;
+  border-radius: 5px;
+}
+
+nav li > a {
+  text-decoration: none;
+  color: lightsalmon;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px;
+}
+
+nav li:hover {
+  background-color: salmon;
+  border: 1px double orangered;
+  border-style: groove;
+  border-radius: 5px;
+  color: black;
+}
+
+nav li > a:hover {
+  color: black;
+}
+footer {
+  color: white;
+  text-align: center;
+}

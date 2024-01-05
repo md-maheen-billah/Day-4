@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Video</title>
+    <link rel="stylesheet" href="/practice/styles/nav.css" />
+    <style>
+      main {
+        padding-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/practice/table.html">Table</a></li>
+          <li>
+            <a href="/practice/media.html">Media</a>
+            <ul class="dropdown">
+              <li><a href="/practice/table.html">Table</a></li>
+              <li><a href="/practice/media.html">Media</a></li>
+              <li><a href="/practice/blog.html">Blog</a></li>
+              <li><a href="/practice/form.html">Form</a></li>
+            </ul>
+          </li>
+          <li><a href="/practice/blog.html">Blog</a></li>
+          <li><a href="/practice/form.html">Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>DownloadedAudio</h2>
+      <audio controls src="/practice/assets/media/crickets.wav"></audio>
+      <h2>Downloaded Video</h2>
+      <video
+        controls
+        src="/practice/assets/media/video1.mp4"
+        width="300px"
+      ></video>
+      <h2>Youtube Video using Iframe</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/AqI97zHMoQw?si=kLVU0VzaV3zkHx6L"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </main>
+  </body>
+</html>
